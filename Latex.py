@@ -53,7 +53,7 @@ def calculate( opt,num,i=1):
         return pow(num.pop(),0.5), 0
 if __name__ == '__main__':
     s = ['start']
-    str = '\\sqrt{{(\\sqrt{3^2}+3)*(2+1)}*{6}}'
+    str = '\\sqrt{(\\sqrt{3^2}+3)*(2+1)*{6}}+5*3-15'
     Formula = pre_process(str)
     num = []
     opt = ['no_opt']
