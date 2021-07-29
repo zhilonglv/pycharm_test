@@ -11,7 +11,7 @@ class No_opt(Operator):
     def calculate(self):
         x1 = num.pop()
         x2 = num.pop()
-        return 0, None, 0
+        return 0, None, 0#456
 #123
 class Plus(Operator):
     def __init__(self,priority = 10):
